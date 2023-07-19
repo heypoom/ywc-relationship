@@ -16,7 +16,12 @@ const config = {
 	content: ['./src/**/*.{html,js,svelte,ts}', skeletonPath],
 
 	theme: {
-		extend: {}
+		extend: {
+			fontFamily: {
+				sans: ['IBM Plex Sans Thai Looped', 'Inter', 'sans-serif'],
+				serif: ['serif']
+			}
+		}
 	},
 
 	plugins: [...skeletonPlugins]
