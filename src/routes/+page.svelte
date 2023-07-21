@@ -17,7 +17,8 @@
 		<section class="grid sm:grid-cols-3 gap-y-8 gap-x-4">
 			<OnboardColumn
 				icon="solar:heart-angle-line-duotone"
-				color="pink-600"
+				iconClass="text-pink-600"
+				btnClass="bg-pink-600"
 				intent="check"
 				btnTitle="เช็คก่อน"
 			>
@@ -26,7 +27,8 @@
 
 			<OnboardColumn
 				icon="solar:card-search-line-duotone"
-				color="purple-600"
+				iconClass="text-purple-600"
+				btnClass="bg-purple-600"
 				intent="match"
 				btnTitle="แมทช์ดู"
 			>
@@ -36,7 +38,8 @@
 
 			<OnboardColumn
 				icon="solar:forbidden-circle-line-duotone"
-				color="orange-600"
+				iconClass="text-orange-600"
+				btnClass="bg-orange-600"
 				intent="reject"
 				btnTitle="ลงสถานะ"
 			>
