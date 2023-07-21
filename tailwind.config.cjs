@@ -24,7 +24,7 @@ const config = {
 		}
 	},
 
-	plugins: [...skeletonPlugins]
+	plugins: [...skeletonPlugins, require('@tailwindcss/forms')]
 }
 
 module.exports = config
