@@ -1,14 +1,10 @@
 <script lang="ts">
-	// import { createEventDispatcher } from 'svelte'
-	// import { SlideToggle } from '@skeletonlabs/skeleton'
+	import { SlideToggle } from '@skeletonlabs/skeleton'
 
 	export let disabled = false
 	export let title: string
 	export let value: boolean
 	export let choices: [string, string] = ['ใช่', 'ไม่']
-
-	type E = { change: boolean }
-	// const send = createEventDispatcher<E>()
 
 	$: [yes, no] = choices
 </script>
@@ -21,13 +17,12 @@
 			{value ? yes : no}
 		</div>
 
-		<!-- <SlideToggle
+		<SlideToggle
 			name="in-relationship"
 			active="bg-primary-500"
 			size="lg"
 			checked={value}
-			on:change={() => send('change', !value)}
 			bind:disabled
-		/> -->
+		/>
 	</div>
 </div>

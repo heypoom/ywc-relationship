@@ -31,6 +31,7 @@
 				value={$onboarding.looking}
 				on:change={(v) => ($onboarding.looking = v.detail)}
 			/>
+
 			<OnboardingToggle
 				title="อยู่ในความสัมพันธ์?"
 				value={$onboarding.inRelationship}
